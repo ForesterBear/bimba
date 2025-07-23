@@ -22,7 +22,7 @@ public class BankController {
 
     private final BankManagementService bankService;
 
-    // Ендпоінт для реєстрації користувача
+    // Ендпоінт для реєстрації користувача123
     @PostMapping("/{bank_id}/users")
     public ResponseEntity<UserDto> registerUser(@PathVariable("bank_id") Long bankId, @RequestBody UserRegistrationDto request) {
         final UserDto userDto = bankService.registerNewUser(request.getName(), request.getSurname(), bankId);
