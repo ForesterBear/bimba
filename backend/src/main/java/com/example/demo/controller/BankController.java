@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/banks") // Базовий шлях для всіх ендпоінтів
+@RequestMapping("/banks") // Базовий шлях для всіх ендпоінтів HOTFIX ADDDED
 @RequiredArgsConstructor
 public class BankController {
 
